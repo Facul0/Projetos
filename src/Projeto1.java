@@ -8,9 +8,7 @@ public class Projeto1 {
         Scanner escl = new Scanner(System.in);
         System.out.println("\033[0m Você é uma bruxa em treinamento, um aventureiro pediu uma poção para até o fim do dia, mas você está sem ingredientes!  \n Você decide olhar na foresta por ingredientes");
         int items = 0;
-
-      
-            System.out.println("Você decide olhar na foresta");  
+ 
             //item 1  
             System.out.println("Você encontra um misterioso circulo de pedras no chão! \n [1]Investigar [2]Seguir em frente");
             int ft = escl.nextInt();
@@ -39,7 +37,7 @@ public class Projeto1 {
             int flor = escl.nextInt();
 
             if (flor == 1){
-                System.out.println("\033[0;32m Você para para cheirar as flores, e encontra uma particularmente agradavél, colocando ela em sua mochila antes de ir para casa \033[0m1");
+                System.out.println("\033[0;32m Você para para cheirar as flores, e encontra uma particularmente agradavél, colocando ela em sua mochila antes de ir para casa \033[0m");
                 items += 1;
             }else {
                 System.out.println("Você foi pra casa");
